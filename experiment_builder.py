@@ -81,7 +81,7 @@ class ExperimentBuilder:
                                self.target_label: target_set_label[0], self.training_phase: True,
                                self.learning_rate: self.current_learning_rate})
 
-                iter_out = "train_loss: {}, train_accuracy: {}".format(c_loss_value, acc)
+                iter_out = "train_loss: {:.6f}, train_accuracy: {:.3f}".format(c_loss_value, acc)
                 pbar.set_description(iter_out)
 
                 pbar.update(1)
@@ -122,7 +122,7 @@ class ExperimentBuilder:
                                self.target_label: target_set_label[0], self.training_phase: False,
                                self.learning_rate: self.current_learning_rate})
 
-                iter_out = "val_loss: {}, val_accuracy: {}".format(c_loss_value, acc)
+                iter_out = "val_loss: {:.6f}, val_accuracy: {:.3f}".format(c_loss_value, acc)
                 pbar.set_description(iter_out)
 
                 pbar.update(1)
@@ -159,7 +159,7 @@ class ExperimentBuilder:
                                self.target_label: target_set_label[0], self.training_phase: False,
                                self.learning_rate: self.current_learning_rate})
 
-                iter_out = "test_loss: {}, test_accuracy: {}".format(c_loss_value, acc)
+                iter_out = "test_loss: {:.6f}, test_accuracy: {:.3f}".format(c_loss_value, acc)
                 pbar.set_description(iter_out)
 
                 pbar.update(1)

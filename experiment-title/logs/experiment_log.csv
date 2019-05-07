@@ -1,0 +1,4 @@
+epoch,total_train_c_loss_mean,total_train_c_loss_std,total_train_accuracy_mean,total_train_accuracy_std,total_val_c_loss_mean,total_val_c_loss_std,total_val_accuracy_mean,total_val_accuracy_std,total_test_c_loss_mean,total_test_c_loss_std,total_test_accuracy_mean,total_test_accuracy_std
+0,0.24812232,0.25207534,0.9384375,0.05151134,0.13172846,0.13706478,0.9616875,0.03447321,-1,-1,-1,-1
+1,0.114977844,0.13513018,0.96840626,0.02992306,0.08845559,0.11169603,0.97190624,0.029560566,-1,-1,-1,-1
+2,0.06378219,0.09246621,0.98075,0.02489321,0.0683013,0.097012684,0.97909373,0.026358388,-1,-1,-1,-1
